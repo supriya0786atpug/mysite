@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Website</title>
-</head>
-<body style="background-color: lightblue; text-align: center;">
+    <title>Supriya's Website</title>
 
-    <h1 style="color: darkblue;">Hello Supriya 🌸</h1>
-    <p style="font-size: 20px;">My Django website design</p>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+
+        .card{
+            background: rgba(255,255,255,0.15);
+            padding:40px;
+            border-radius:20px;
+            backdrop-filter: blur(15px);
+            text-align:center;
+            color:white;
+            width:350px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+
+        .card h1{
+            font-size:28px;
+            margin-bottom:15px;
+        }
+
+        .card p{
+            font-size:14px;
+            margin-bottom:25px;
+            opacity:0.9;
+        }
+
+        .btn{
+            background:white;
+            color:#764ba2;
+            padding:12px 25px;
+            border:none;
+            border-radius:30px;
+            cursor:pointer;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#f1f1f1;
+            transform:scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Welcome Supriya ✨</h1>
+        <p>This is my elegant Django website. Beautiful, modern and unique design.</p>
+        <button class="btn">Explore More</button>
+    </div>
 
 </body>
 </html>
